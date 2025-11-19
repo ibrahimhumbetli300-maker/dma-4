@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./layout.css">
+  <meta charset="UTF-8">
+  <title>To-Do App with Search</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-        
-    <script src="./app.js"></script>
+
+  <div class="box">
+
+    <input id="taskInput" type="text" placeholder="Write something...">
+    <button id="addBtn">Add</button>
+
+    <input id="searchInput" type="text" placeholder="Search..." class="search">
+
+    <div id="taskList"></div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
